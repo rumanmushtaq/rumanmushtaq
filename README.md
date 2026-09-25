@@ -1,60 +1,83 @@
-<img src="assets/banner.svg" width="100%" alt="Ruman Mushtaq — full-stack product engineer. Next.js, NestJS, TypeScript, React Native, PostgreSQL, Redis.">
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=200&section=header&text=Ruman%20Mushtaq&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=Full%20Stack%20Developer%20%E2%80%A2%20NestJS%20%C2%B7%20Next.js%20%C2%B7%20Python&descSize=17&descColor=8b949e&descAlignY=56&animation=fadeIn" width="100%" /> <a href="https://github.com/rumanmushtaq"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=640&height=40&lines=I+build+production-grade+NestJS+APIs;Auth%2C+payments%2C+real-time+%26+background+jobs;Next.js+dashboards+that+ship+to+Vercel;Fine-tuned+BERT+for+fake-news+detection" alt="Typing SVG" /> </a>
+LinkedIn Email Live Demos
 
-<br>
+</div>
+👋 About me
+I'm a full-stack developer who mostly lives on the backend. I design NestJS services with proper auth (JWT rotation, 2FA, OAuth, Clerk), Stripe payments, Socket.IO real-time features, and Redis/BullMQ job queues, then build the Next.js dashboards that sit on top of them. Lately I've been adding ML to the mix with PyTorch + Hugging Face.
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/rumanmushtaq/LMS-web">
-        <img src="assets/card-varona.svg" width="100%" alt="Varona Academy — a tutoring marketplace with live classes, on-demand courses, certificates and a storefront. Built with Next.js, NestJS, MongoDB and Stripe.">
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/rumanmushtaq/Grome-Backend">
-        <img src="assets/card-grome.svg" width="100%" alt="Grome — a barber booking platform with scheduling, wallets, promo codes and in-app chat. Built with NestJS, Redis, BullMQ and AWS S3.">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/rumanmushtaq/wisdom">
-        <img src="assets/card-wisdom.svg" width="100%" alt="Wisdom — a content platform with a 3D-driven marketing front end and an admin console. Built with Next.js, Three.js and Redux Toolkit.">
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/rumanmushtaq/music-app-backend">
-        <img src="assets/card-music.svg" width="100%" alt="Music App — a streaming backend and Expo client running serverless. Built with NestJS, PostgreSQL, TypeORM and Expo.">
-      </a>
-    </td>
-  </tr>
-</table>
+🔨 Now building: a music streaming app (NestJS + Expo) and Varona Academy, a tutoring LMS
+🎯 Looking for: full-stack / backend roles and freelance API work
+📫 Reach me: LinkedIn or email
+🚀 Featured projects
+<table> <tr> <td width="50%" valign="top">
+✂️ Grome: barbershop booking platform
+Real-time bookings, chat, wallet and payments for barbershops.
 
-<br>
+NestJS MongoDB Redis BullMQ Socket.IO Stripe AWS S3
 
-### Stack
+Socket.IO with Redis adapter for horizontal scaling
+BullMQ background jobs, S3 presigned uploads
+Google / Facebook / Apple OAuth + JWT rotation
+Code · Admin panel · API
 
-**Frontend** &nbsp;·&nbsp; TypeScript · Next.js · React · Tailwind · Radix UI · Zustand · Redux Toolkit · TanStack Query · React Hook Form + Zod · Framer Motion
+</td> <td width="50%" valign="top">
+📚 Varona Academy: tutoring LMS
+Student / tutor / admin platform with live sessions and payments.
 
-**Backend** &nbsp;·&nbsp; NestJS · Node.js · REST + Swagger · Socket.IO · Passport/JWT · BullMQ · 2FA (TOTP)
+NestJS Next.js MongoDB Stripe Socket.IO TanStack Query
 
-**Data** &nbsp;·&nbsp; MongoDB / Mongoose · PostgreSQL / TypeORM · Redis
+JWT refresh rotation, TOTP + email-OTP 2FA
+Role-based access, rate limiting, Helmet
+Calendar booking, HLS video, e-signatures
+API · Web · Admin · Live admin
 
-**Mobile** &nbsp;·&nbsp; React Native · Expo Router · NativeWind · Reanimated
+</td> </tr> <tr> <td width="50%" valign="top">
+🔍 Fake News BERT Audit
+Paste a headline or article and get a Real/Fake verdict with confidence.
 
-**Platform** &nbsp;·&nbsp; AWS S3 · Stripe · SendGrid · Firebase · ImageKit · Clerk · Vercel
+Python Django PyTorch Transformers BERT
 
-<br>
+Fine-tuned bert-base-uncased classifier (512 tokens)
+Searchable per-user analysis history
+Tested, documented, deployable
+Code
 
-### How I work
+</td> <td width="50%" valign="top">
+📖 BookWise: university library system
+Students browse and borrow books, admins manage the catalog.
 
-- **Typed end to end.** Zod schemas on the client, `class-validator` DTOs on the server, shared contracts wherever a monorepo allows it.
-- **Security ships with v1.** Helmet, rate limiting, throttling and hashed credentials are not a later ticket.
-- **Design systems over one-off screens.** Atomic component layers and design tokens, so the tenth screen costs less than the first.
+Next.js 15 PostgreSQL Drizzle ORM NextAuth Upstash
 
-<br>
+Upstash rate limiting + workflow emails
+Runs fully offline with Docker Postgres
+Seeded demo accounts for quick review
+Code
 
-### Currently
+</td> </tr> <tr> <td width="50%" valign="top">
+🎵 Music app backend
+Streaming API for an Expo / React Native client.
 
-Building an AI-assisted business operating system — a monorepo with shared design tokens, typed contracts and a backend-for-frontend layer serving web, admin and mobile from one source of truth.
+NestJS PostgreSQL TypeORM Clerk Redis
 
-**Open to full-stack and frontend roles.** &nbsp;·&nbsp; [rumanm.dev@gmail.com](mailto:rumanm.dev@gmail.com)
+Clerk token verification + just-in-time user provisioning
+Subscription plans (free / pro / black)
+Serverless-ready deployment
+Code
+
+</td> <td width="50%" valign="top">
+🧠 Wisdom
+Next.js app with a separate admin dashboard.
+
+Next.js Redux Toolkit shadcn/ui Zod
+
+Add 2-3 lines on what it does
+Code · Live · Admin
+
+</td> </tr> </table>
+🛠️ Tech stack
+<p align="center"> <img src="https://skillicons.dev/icons?i=ts,js,python,nestjs,nodejs,express,django,nextjs,react,vue,tailwind,postgres,mongodb,redis,docker,aws,vercel,pytorch,git&perline=10" /> </p> <p align="center"> <sub>Also: Stripe · Socket.IO · BullMQ · TypeORM · Drizzle · Mongoose · Clerk · Swagger · Zustand · TanStack Query</sub> </p>
+📊 Activity
+<p align="center"> <img src="https://streak-stats.demolab.com?user=rumanmushtaq&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" height="165" /> </p> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rumanmushtaq/rumanmushtaq/output/github-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rumanmushtaq/rumanmushtaq/output/github-snake.svg" /> <img alt="snake eating contributions" src="https://raw.githubusercontent.com/rumanmushtaq/rumanmushtaq/output/github-snake.svg" /> </picture> <div align="center">
+💬 Have a project in mind? Let's talk.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=110&section=footer" width="100%" /> </div>
