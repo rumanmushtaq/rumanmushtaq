@@ -1,198 +1,60 @@
-<div align="center">
+<img src="assets/banner.svg" width="100%" alt="Ruman Mushtaq — full-stack product engineer. Next.js, NestJS, TypeScript, React Native, PostgreSQL, Redis.">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=220&section=header&text=Ruman%20Mushtaq&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=Full%20Stack%20Developer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+<br>
 
-<!-- Typing SVG -->
-<a href="https://github.com/rumanmushtaq">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=Building+scalable+backends+%26+beautiful+frontends;NestJS+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+TypeScript" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- Badges Row -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/rumanmushtaq)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rumanmushtaq)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rumanmushtaq@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rumanmushtaq)
-
-</div>
-
----
-
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rumanmushtaq&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6" width="260" />
-
-## ⚡ About Me
-
-```typescript
-const ruman = {
-  role: "Full Stack Developer",
-  code: ["TypeScript", "JavaScript", "Python"],
-  focus: "Building production-ready systems",
-  currentlyBuilding: [
-    "🎵 Music Streaming Platform",
-    "📚 Learning Management System",
-  ],
-  funFact: "I debug in my dreams",
-};
-```
-
-- 🔭 Currently building **scalable backend systems** with NestJS
-- 🧠 Exploring **AI/ML** with Python
-- 🤝 Open to collaborating on **open source projects**
-- ⚡ I believe in **clean architecture** and **well-documented APIs**
-
-<br clear="right"/>
-
----
-
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### Backend
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
 <table>
-<tr>
-<td width="50%">
-
-### 🎵 Music App Backend
-**Production-ready music streaming API**
-
-`NestJS` `PostgreSQL` `Clerk Auth` `Google Play Billing`
-
-- Subscription & checkout system
-- Centralized error handling
-- Admin guards & role management
-- Music language preferences
-
-[![Repo](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rumanmushtaq/music-app-backend)
-
-</td>
-<td width="50%">
-
-### 📚 LMS Backend
-**Full-featured learning management system**
-
-`NestJS` `JWT` `2FA` `Swagger` `Clean Architecture`
-
-- JWT auth with refresh token rotation
-- Two-Factor Auth (TOTP + Email OTP)
-- Student / Tutor / Admin roles
-- Rate limiting & Helmet security
-
-[![Repo](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rumanmushtaq/LMS-backend)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🛡️ LMS Admin Panel
-**Admin dashboard for LMS**
-
-`React` `TypeScript` `REST API`
-
-- User management & analytics
-- Role-based access control
-- Dashboard statistics
-
-[![Repo](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rumanmushtaq/LMS-admin)
-
-</td>
-<td width="50%">
-
-### 🔍 Fake News Detection
-**AI-powered news verification**
-
-`Python` `Machine Learning` `NLP`
-
-- Text classification pipeline
-- ML model training & evaluation
-- Real-world dataset analysis
-
-[![Repo](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rumanmushtaq/fake-news-detection)
-
-</td>
-</tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/rumanmushtaq/LMS-web">
+        <img src="assets/card-varona.svg" width="100%" alt="Varona Academy — a tutoring marketplace with live classes, on-demand courses, certificates and a storefront. Built with Next.js, NestJS, MongoDB and Stripe.">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/rumanmushtaq/Grome-Backend">
+        <img src="assets/card-grome.svg" width="100%" alt="Grome — a barber booking platform with scheduling, wallets, promo codes and in-app chat. Built with NestJS, Redis, BullMQ and AWS S3.">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/rumanmushtaq/wisdom">
+        <img src="assets/card-wisdom.svg" width="100%" alt="Wisdom — a content platform with a 3D-driven marketing front end and an admin console. Built with Next.js, Three.js and Redux Toolkit.">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/rumanmushtaq/music-app-backend">
+        <img src="assets/card-music.svg" width="100%" alt="Music App — a streaming backend and Expo client running serverless. Built with NestJS, PostgreSQL, TypeORM and Expo.">
+      </a>
+    </td>
+  </tr>
 </table>
-</div>
 
----
+<br>
 
-## 📊 GitHub Stats
+### Stack
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rumanmushtaq&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&ring_color=58a6ff" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=rumanmushtaq&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" height="170" />
-</div>
+**Frontend** &nbsp;·&nbsp; TypeScript · Next.js · React · Tailwind · Radix UI · Zustand · Redux Toolkit · TanStack Query · React Hook Form + Zod · Framer Motion
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rumanmushtaq&theme=github-compact&hide_border=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=58a6ff&area=true&area_color=58a6ff" width="95%" />
-</div>
+**Backend** &nbsp;·&nbsp; NestJS · Node.js · REST + Swagger · Socket.IO · Passport/JWT · BullMQ · 2FA (TOTP)
 
----
+**Data** &nbsp;·&nbsp; MongoDB / Mongoose · PostgreSQL / TypeORM · Redis
 
-## 🏆 GitHub Trophies
+**Mobile** &nbsp;·&nbsp; React Native · Expo Router · NativeWind · Reanimated
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rumanmushtaq&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="95%" />
-</div>
+**Platform** &nbsp;·&nbsp; AWS S3 · Stripe · SendGrid · Firebase · ImageKit · Clerk · Vercel
 
----
+<br>
 
-<div align="center">
+### How I work
 
-### 🐍 Contribution Snake
+- **Typed end to end.** Zod schemas on the client, `class-validator` DTOs on the server, shared contracts wherever a monorepo allows it.
+- **Security ships with v1.** Helmet, rate limiting, throttling and hashed credentials are not a later ticket.
+- **Design systems over one-off screens.** Atomic component layers and design tokens, so the tenth screen costs less than the first.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rumanmushtaq/rumanmushtaq/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rumanmushtaq/rumanmushtaq/output/github-snake.svg" />
-  <img alt="snake eating contributions" src="https://raw.githubusercontent.com/rumanmushtaq/rumanmushtaq/output/github-snake.svg" />
-</picture>
+<br>
 
-</div>
+### Currently
 
----
+Building an AI-assisted business operating system — a monorepo with shared design tokens, typed contracts and a backend-for-frontend layer serving web, admin and mobile from one source of truth.
 
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=rumanmushtaq&color=58a6ff&style=flat-square&label=Profile+Views" />
-
-**💬 Got a project idea? Let's build something amazing together.**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=120&section=footer" width="100%" />
-
-</div>
+**Open to full-stack and frontend roles.** &nbsp;·&nbsp; [rumanm.dev@gmail.com](mailto:rumanm.dev@gmail.com)

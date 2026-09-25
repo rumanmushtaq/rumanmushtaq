@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" width="620" height="330" role="img" aria-label="Grome — Barber booking platform — scheduling, wallets,">
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5FD0B0" stop-opacity="0.13"/>
+      <stop offset="60%" stop-color="#5FD0B0" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .k { font: 600 11px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: 1.6px; }
+      .t { font: 700 27px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: -0.5px; }
+      .d { font: 400 15px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .l { font: 600 10px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: 1.4px; }
+      .h { font: 400 14px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .chip { font: 500 12.5px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="620" height="330" rx="14" fill="#0E1426"/>
+  <rect width="620" height="330" rx="14" fill="url(#sheen)"/>
+  <rect x="0.75" y="0.75" width="618.5" height="328.5" rx="13.25" fill="none" stroke="#232D4D"/>
+
+  <rect x="32" y="34" width="14" height="3" rx="1.5" fill="#5FD0B0"/>
+  <text class="k" x="56" y="40" fill="#5FD0B0">BOOKING MARKETPLACE</text>
+
+  <text class="t" x="32" y="84" fill="#F0F4FF">Grome</text>
+
+  <text class="d" x="32" y="120" fill="#96A2C2">Barber booking platform — scheduling, wallets,</text>
+  <text class="d" x="32" y="142" fill="#96A2C2">promo codes, and in-app chat.</text>
+
+  <line x1="32" y1="170" x2="588" y2="170" stroke="#232D4D"/>
+
+  <text class="l" x="32" y="198" fill="#6E7A9E">THE HARD PART</text>
+  <text class="h" x="32" y="222" fill="#C2CCE8">BullMQ job queues and a Socket.IO Redis adapter so</text>
+  <text class="h" x="32" y="242" fill="#C2CCE8">chat scales past a single node.</text>
+
+  <g>
+    <rect x="32" y="276" width="67" height="28" rx="14" fill="#5FD0B0" fill-opacity="0.10" stroke="#5FD0B0" stroke-opacity="0.34"/><text class="chip" x="65" y="294" fill="#C6D0EA" text-anchor="middle">NestJS</text>
+    <rect x="108" y="276" width="60" height="28" rx="14" fill="#5FD0B0" fill-opacity="0.10" stroke="#5FD0B0" stroke-opacity="0.34"/><text class="chip" x="138" y="294" fill="#C6D0EA" text-anchor="middle">Redis</text>
+    <rect x="177" y="276" width="67" height="28" rx="14" fill="#5FD0B0" fill-opacity="0.10" stroke="#5FD0B0" stroke-opacity="0.34"/><text class="chip" x="210" y="294" fill="#C6D0EA" text-anchor="middle">BullMQ</text>
+    <rect x="253" y="276" width="67" height="28" rx="14" fill="#5FD0B0" fill-opacity="0.10" stroke="#5FD0B0" stroke-opacity="0.34"/><text class="chip" x="286" y="294" fill="#C6D0EA" text-anchor="middle">AWS S3</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Ruman Mushtaq, full-stack product engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F1F"/>
+      <stop offset="55%" stop-color="#121A33"/>
+      <stop offset="100%" stop-color="#1A1436"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C9BFF"/>
+      <stop offset="100%" stop-color="#B78AFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#7C9BFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#7C9BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#FFFFFF" opacity="0.05"/>
+    </pattern>
+    <style>
+      .n { font: 700 58px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: -1.4px; }
+      .r { font: 400 21px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .c { font: 500 14px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="14" fill="url(#dots)"/>
+  <circle cx="1010" cy="120" r="300" fill="url(#glow)"/>
+
+  <rect x="72" y="86" width="4" height="52" rx="2" fill="url(#accent)"/>
+
+  <text class="n" x="96" y="128" fill="#F2F5FF">Ruman Mushtaq</text>
+  <text class="r" x="97" y="172" fill="#93A0C4">Full-stack product engineer — I build platforms, not demos.</text>
+
+  <g>
+    <rect x="96" y="222" width="82" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#7C9BFF" stroke-opacity="0.35"/>
+    <text class="c" x="137" y="243" fill="#C9D4F5" text-anchor="middle">Next.js</text>
+    <rect x="188" y="222" width="74" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#7C9BFF" stroke-opacity="0.35"/>
+    <text class="c" x="225" y="243" fill="#C9D4F5" text-anchor="middle">NestJS</text>
+    <rect x="272" y="222" width="105" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#7C9BFF" stroke-opacity="0.35"/>
+    <text class="c" x="324" y="243" fill="#C9D4F5" text-anchor="middle">TypeScript</text>
+    <rect x="387" y="222" width="120" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#7C9BFF" stroke-opacity="0.35"/>
+    <text class="c" x="447" y="243" fill="#C9D4F5" text-anchor="middle">React Native</text>
+    <rect x="517" y="222" width="105" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#7C9BFF" stroke-opacity="0.35"/>
+    <text class="c" x="569" y="243" fill="#C9D4F5" text-anchor="middle">PostgreSQL</text>
+    <rect x="632" y="222" width="67" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#7C9BFF" stroke-opacity="0.35"/>
+    <text class="c" x="665" y="243" fill="#C9D4F5" text-anchor="middle">Redis</text>
+  </g>
+
+  <g transform="translate(950 72)" opacity="0.85">
+    <rect x="0" y="0" width="196" height="196" rx="24" fill="none" stroke="#7C9BFF" stroke-opacity="0.30" stroke-width="1.5"/>
+    <rect x="28" y="28" width="140" height="140" rx="18" fill="none" stroke="#9B8AFF" stroke-opacity="0.38" stroke-width="1.5"/>
+    <rect x="56" y="56" width="84" height="84" rx="12" fill="none" stroke="#B78AFF" stroke-opacity="0.50" stroke-width="1.5"/>
+    <circle cx="98" cy="98" r="9" fill="url(#accent)"/>
+  </g>
+</svg>
